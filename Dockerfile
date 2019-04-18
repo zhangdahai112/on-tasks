@@ -8,8 +8,7 @@ COPY . /RackHD/on-tasks/
 
 RUN cd /RackHD/on-tasks \
   && mkdir -p /RackHD/on-tasks/node_modules \
-   && npm install -g cnpm --registry=https://registry.npm.taobao.org \
-  && cnpm install --ignore-scripts --production \\
+  && npm install --ignore-scripts --production \
   && rm -r /RackHD/on-tasks/node_modules/on-core \
   && rm -r /RackHD/on-tasks/node_modules/di \
   && ln -s /RackHD/on-core /RackHD/on-tasks/node_modules/on-core \
