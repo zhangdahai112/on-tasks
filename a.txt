@@ -1,2 +1,0 @@
-add content
-deb http://mirrors.aliyun.com/debian wheezy main contrib non-free
