@@ -3774,3 +3774,7 @@ module.exports.diagApiData = fs
 module.exports.ucsCatalogData = fs
     .readFileSync(__dirname+"/samplefiles/ucs-catalog-sample.txt")
     .toString();
+
+module.exports.adaptecCatalogData = fs
+    .readFileSync(__dirname+"/samplefiles/adaptecraid-adapter-info.txt")
+    .toString();
