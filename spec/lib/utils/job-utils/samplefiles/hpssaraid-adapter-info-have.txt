@@ -1,0 +1,236 @@
+Smart Array P440ar in Slot 0 (Embedded)
+   Bus Interface: PCI
+   Slot: 0
+   Serial Number: PDNLH0BRH9B44R
+   Cache Serial Number: PDNLH0BRH9B44R
+   RAID 6 (ADG) Status: Enabled
+   Controller Status: OK
+   Hardware Revision: B
+   Firmware Version: 7.00-0
+   Firmware Supports Online Firmware Activation: False
+   Rebuild Priority: High
+   Expand Priority: Medium
+   Surface Scan Delay: 3 secs
+   Surface Scan Mode: Idle
+   Parallel Surface Scan Supported: Yes
+   Current Parallel Surface Scan Count: 1
+   Max Parallel Surface Scan Count: 16
+   Queue Depth: Automatic
+   Monitor and Performance Delay: 60  min
+   Elevator Sort: Enabled
+   Degraded Performance Optimization: Disabled
+   Inconsistency Repair Policy: Disabled
+   Wait for Cache Room: Disabled
+   Surface Analysis Inconsistency Notification: Disabled
+   Post Prompt Timeout: 15 secs
+   Cache Board Present: True
+   Cache Status: OK
+   Cache Ratio: 10% Read / 90% Write
+   Drive Write Cache: Disabled
+   Total Cache Size: 2.0
+   Total Cache Memory Available: 1.8
+   No-Battery Write Cache: Disabled
+   SSD Caching RAID5 WriteBack Enabled: True
+   SSD Caching Version: 2
+   Cache Backup Power Source: Batteries
+   Battery/Capacitor Count: 1
+   Battery/Capacitor Status: OK
+   SATA NCQ Supported: True
+   Spare Activation Mode: Activate on physical drive failure (default)
+   Controller Temperature (C): 45
+   Cache Module Temperature (C): 33
+   Number of Ports: 2 Internal only
+   Encryption: Not Set
+   Express Local Encryption: False
+   Driver Name: hpsa
+   Driver Version: 3.4.16
+   Driver Supports SSD Smart Path: True
+   PCI Address (Domain:Bus:Device.Function): 0000:03:00.0
+   Negotiated PCIe Data Rate: PCIe 3.0 x8 (7880 MB/s)
+   Controller Mode: RAID
+   Pending Controller Mode: RAID
+   Port Max Phy Rate Limiting Supported: False
+   Latency Scheduler Setting: Disabled
+   Current Power Mode: MaxPerformance
+   Survival Mode: Disabled
+   Host Serial Number: 6CU534VDMJ
+   Sanitize Erase Supported: True
+   Primary Boot Volume: None
+   Secondary Boot Volume: None
+
+
+
+   Internal Drive Cage at Port 1I, Box 3, OK
+
+      Drive Bays: 4
+      Port: 1I
+      Box: 3
+      Location: Internal
+
+   Physical Drives
+      physicaldrive 1I:3:4 (port 1I:box 3:bay 4, SAS HDD, 500 GB, OK)
+      physicaldrive 1I:3:3 (port 1I:box 3:bay 3, SAS HDD, 500 GB, OK)
+      physicaldrive 1I:3:2 (port 1I:box 3:bay 2, SAS HDD, 500 GB, OK)
+      physicaldrive 1I:3:1 (port 1I:box 3:bay 1, SAS HDD, 500 GB, OK)
+
+
+
+   Internal Drive Cage at Port 2I, Box 0, OK
+
+      Drive Bays: 4
+      Port: 2I
+      Box: 0
+      Location: Internal
+
+   Physical Drives
+      None attached
+
+
+   Port Name: 1I
+         Port ID: 0
+         Port Connection Number: 0
+         SAS Address: 50014380363A7DF0
+         Port Location: Internal
+
+   Port Name: 2I
+         Port ID: 1
+         Port Connection Number: 1
+         SAS Address: 50014380363A7DF4
+         Port Location: Internal
+
+   Array: A
+      Interface Type: SAS
+      Unused Space: 0 MB (0.00%)
+      Used Space: 931.46 GB (100.00%)
+      Status: OK
+      MultiDomain Status: OK
+      Array Type: Data 
+      Smart Path: disable
+
+
+      Logical Drive: 1
+         Size: 465.73 GB
+         Fault Tolerance: 1
+         Heads: 255
+         Sectors Per Track: 32
+         Cylinders: 65535
+         Strip Size: 256 KB
+         Full Stripe Size: 256 KB
+         Status: OK
+         Unrecoverable Media Errors: None
+         MultiDomain Status: OK
+         Caching:  Enabled
+         Unique Identifier: 600508B1001CD53E80C9EC8A0B472650
+         Disk Name: /dev/sda 
+         Mount Points: None
+         Logical Drive Label: 00FAFC73PDNLH0BRH9B44RD6FD
+         Mirror Group 1:
+            physicaldrive 1I:3:2 (port 1I:box 3:bay 2, SAS HDD, 500 GB, OK)
+         Mirror Group 2:
+            physicaldrive 1I:3:1 (port 1I:box 3:bay 1, SAS HDD, 500 GB, OK)
+         Drive Type: Data
+         LD Acceleration Method: Controller Cache
+
+
+      physicaldrive 1I:3:1
+         Port: 1I
+         Box: 3
+         Bay: 1
+         Status: OK
+         Drive Type: Data Drive
+         Interface Type: SAS
+         Size: 500 GB
+         Drive exposed to OS: False
+         Logical/Physical Block Size: 512/512
+         Rotational Speed: 7200
+         Firmware Revision: FTS3
+         Serial Number: 9XF1VD5X00009308P8LZ
+         WWID: 5000C50055C2F319
+         Model: SEAGATE ST9500620SS
+         PHY Count: 2
+         PHY Transfer Rate: 6.0Gbps, Unknown
+         PHY Physical Link Rate: Unknown, Unknown
+         PHY Maximum Link Rate: Unknown, Unknown
+         Drive Authentication Status: OK
+         Carrier Application Version: 11
+         Carrier Bootloader Version: 6
+         Sanitize Erase Supported: False
+         Shingled Magnetic Recording Support: None
+
+      physicaldrive 1I:3:2
+         Port: 1I
+         Box: 3
+         Bay: 2
+         Status: OK
+         Drive Type: Data Drive
+         Interface Type: SAS
+         Size: 500 GB
+         Drive exposed to OS: False
+         Logical/Physical Block Size: 512/512
+         Rotational Speed: 7200
+         Firmware Revision: FTS3
+         Serial Number: 9XF20P2000009317H6K3
+         WWID: 5000C50055C590B1
+         Model: SEAGATE ST9500620SS
+         PHY Count: 2
+         PHY Transfer Rate: 6.0Gbps, Unknown
+         PHY Physical Link Rate: Unknown, Unknown
+         PHY Maximum Link Rate: Unknown, Unknown
+         Drive Authentication Status: OK
+         Carrier Application Version: 11
+         Carrier Bootloader Version: 6
+         Sanitize Erase Supported: False
+         Shingled Magnetic Recording Support: None
+
+
+   Unassigned
+
+      physicaldrive 1I:3:3
+         Port: 1I
+         Box: 3
+         Bay: 3
+         Status: OK
+         Drive Type: Unassigned Drive
+         Interface Type: SAS
+         Size: 500 GB
+         Drive exposed to OS: False
+         Logical/Physical Block Size: 512/512
+         Rotational Speed: 7200
+         Firmware Revision: FTS1
+         Serial Number: 9XF1S7FZ00009302YSCV
+         WWID: 5000C5004252D275
+         Model: SEAGATE ST9500620SS
+         PHY Count: 2
+         PHY Transfer Rate: 6.0Gbps, Unknown
+         PHY Physical Link Rate: Unknown, Unknown
+         PHY Maximum Link Rate: Unknown, Unknown
+         Drive Authentication Status: OK
+         Carrier Application Version: 11
+         Carrier Bootloader Version: 6
+         Sanitize Erase Supported: False
+         Shingled Magnetic Recording Support: None
+
+      physicaldrive 1I:3:4
+         Port: 1I
+         Box: 3
+         Bay: 4
+         Status: OK
+         Drive Type: Unassigned Drive
+         Interface Type: SAS
+         Size: 500 GB
+         Drive exposed to OS: False
+         Logical/Physical Block Size: 512/512
+         Rotational Speed: 7200
+         Firmware Revision: FTS3
+         Serial Number: 9XF216VE00009315XGPW
+         WWID: 5000C50055BE0B6D
+         Model: SEAGATE ST9500620SS
+         PHY Count: 2
+         PHY Transfer Rate: 6.0Gbps, Unknown
+         PHY Physical Link Rate: Unknown, Unknown
+         PHY Maximum Link Rate: Unknown, Unknown
+         Drive Authentication Status: OK
+         Carrier Application Version: 11
+         Carrier Bootloader Version: 6
+         Sanitize Erase Supported: False
+         Shingled Magnetic Recording Support: None
