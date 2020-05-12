@@ -1,0 +1,501 @@
+Controllers found: 1
+----------------------------------------------------------------------
+Controller information
+----------------------------------------------------------------------
+   Controller Status                        : Optimal
+   Controller Mode                          : RAID (Expose RAW)
+   Channel description                      : SAS/SATA
+   Controller Model                         : PM8060-RAID 
+   Controller Serial Number                 : 11188231258
+   Controller World Wide Name               : 56C92BF0006AF0FA
+   Controller Alarm                         : Enabled
+   Physical Slot                            : 1
+   Temperature                              : 38 C/ 100 F (Normal)
+   Installed memory                         : 2048 MB
+   Host bus type                            : PCIe
+   Host bus speed                           : 8000 MHz
+   Host bus link width                      : 8 bit(s)/link(s)
+   Global task priority                     : High
+   Performance Mode                         : Default/Dynamic
+   PCI Device ID                            : 653
+   Stayawake period                         : Disabled
+   Spinup limit internal drives             : 0
+   Spinup limit external drives             : 0
+   Defunct disk drive count                 : 0
+   NCQ status                               : Enabled
+   Statistics data collection mode          : Disabled
+   Monitor Log Severity Level               : Informational
+   Global Max SAS Phy Link Rate             : 12 Gbps
+   Verify Write Setting                     : Not Applicable
+   Save Custom Defaults Setting             : Not Supported
+   Smart Poll                               : Enabled
+   Error Tunable Profile                    : Normal
+   --------------------------------------------------------
+   Cache Properties
+   --------------------------------------------------------
+   Global Physical Device Write Cache Policy: Enabled
+   --------------------------------------------------------
+   RAID Properties
+   --------------------------------------------------------
+   Logical devices/Failed/Degraded          : 0/0/0
+   Copyback                                 : Enabled
+   Automatic Failover                       : Enabled
+   Background consistency check             : Disabled
+   Background consistency check period      : 0
+   --------------------------------------------------------
+   Controller BIOS Setting Information
+   --------------------------------------------------------
+   Runtime BIOS                             : Enabled
+   Array BBS Support                        : Disabled
+   Physical Drives Displayed during POST    : Enabled
+   Backplane Mode                           : SGPIO
+   BIOS Halt on Missing Drive Count         : 255
+   --------------------------------------------------------
+   Controller Version Information
+   --------------------------------------------------------
+   BIOS                                     : 7.13-0 (33263)
+   Firmware                                 : 7.13-0 (33263)
+   Driver                                   : 1.2-1 (41066)
+   Boot Flash                               : 7.13-0 (33263)
+   CPLD (Load version/ Flash version)       : 8/ 8
+   SEEPROM (Load version/ Flash version)    : 1/ 1
+   FCT Custom Init String Version           : 0x0
+
+   --------------------------------------------------------
+   Controller Cache Backup Unit Information
+   --------------------------------------------------------
+
+    Overall Backup Unit Status              : Not Present
+   --------------------------------------------------------
+   Connector information
+                   
+   --------------------------------------------------------
+   Connector #0                             
+      Connector Name                        : CN0
+
+      --------------------------------------
+   Lane Information                         
+      --------------------------------------
+      Lane #0                               
+         Channel ID                         : 0
+         Device ID                          : 0
+         SAS Address                        : 56C92BF0006AF0FA
+         PHY Identifier                     : 6
+         -----------------------------------
+         Lane SAS Phy Information           
+         -----------------------------------
+            SAS Address                     : 56C92BF0006AF0FA
+            Attached PHY Identifier         : 0
+            Attached SAS Address            : 5000C500BBEAE041
+            Negotiated Logical Link Rate    : PHY enabled - 12 Gbps
+
+      Lane #1                               
+         Channel ID                         : 0
+         Device ID                          : 1
+         SAS Address                        : 56C92BF0006AF0FA
+         PHY Identifier                     : 7
+         -----------------------------------
+         Lane SAS Phy Information           
+         -----------------------------------
+            SAS Address                     : 56C92BF0006AF0FA
+            Attached PHY Identifier         : 0
+            Attached SAS Address            : 5000C500BBB6F159
+            Negotiated Logical Link Rate    : PHY enabled - 12 Gbps
+
+      Lane #2                               
+         Channel ID                         : 0
+         Device ID                          : 2
+         SAS Address                        : 56C92BF0006AF0FA
+         PHY Identifier                     : 5
+         -----------------------------------
+         Lane SAS Phy Information           
+         -----------------------------------
+            SAS Address                     : 56C92BF0006AF0FA
+            Attached PHY Identifier         : 0
+            Attached SAS Address            : 5000C500BBB64685
+            Negotiated Logical Link Rate    : PHY enabled - 12 Gbps
+
+      Lane #3                               
+         Channel ID                         : 0
+         Device ID                          : 3
+         SAS Address                        : 56C92BF0006AF0FA
+         PHY Identifier                     : 4
+         -----------------------------------
+         Lane SAS Phy Information           
+         -----------------------------------
+            SAS Address                     : 56C92BF0006AF0FA
+            Attached PHY Identifier         : 0
+            Attached SAS Address            : 5000C500BBB7AD7D
+            Negotiated Logical Link Rate    : PHY enabled - 12 Gbps
+
+
+   Connector #1                             
+      Connector Name                        : CN1
+
+      --------------------------------------
+   Lane Information                         
+      --------------------------------------
+      Lane #0                               
+         Channel ID                         : 0
+         Device ID                          : 4
+         SAS Address                        : 56C92BF0006AF0FA
+         PHY Identifier                     : 1
+         -----------------------------------
+         Lane SAS Phy Information           
+         -----------------------------------
+            SAS Address                     : 56C92BF0006AF0FA
+
+      Lane #1                               
+         Channel ID                         : 0
+         Device ID                          : 5
+         SAS Address                        : 56C92BF0006AF0FA
+         PHY Identifier                     : 0
+         -----------------------------------
+         Lane SAS Phy Information           
+         -----------------------------------
+            SAS Address                     : 56C92BF0006AF0FA
+
+      Lane #2                               
+         Channel ID                         : 0
+         Device ID                          : 6
+         SAS Address                        : 56C92BF0006AF0FA
+         PHY Identifier                     : 2
+         -----------------------------------
+         Lane SAS Phy Information           
+         -----------------------------------
+            SAS Address                     : 56C92BF0006AF0FA
+
+      Lane #3                               
+         Channel ID                         : 0
+         Device ID                          : 7
+         SAS Address                        : 56C92BF0006AF0FA
+         PHY Identifier                     : 3
+         -----------------------------------
+         Lane SAS Phy Information           
+         -----------------------------------
+            SAS Address                     : 56C92BF0006AF0FA
+
+
+
+----------------------------------------------------------------------
+Logical device information
+----------------------------------------------------------------------
+   No logical devices configured
+
+----------------------------------------------------------------------
+Physical Device information
+----------------------------------------------------------------------
+      Device #0
+         Device is a Hard drive
+         State                              : Ready
+         Block Size                         : 512 Bytes
+         Supported                          : Yes
+         Programmed Max Speed               : SAS 12.0 Gb/s
+         Transfer Speed                     : SAS 12.0 Gb/s
+         Reported Channel,Device(T:L)       : 0,0(0:0)
+         Reported Location                  : Enclosure 0, Slot 0(Connector 0)
+         Reported ESD(T:L)                  : 2,0(0:0)
+         Vendor                             : SEAGATE
+         Model                              : ST600MM0009
+         Firmware                           : N003
+         Serial number                      : WFJ11FKN0000E909DN44
+         World-wide name                    : 5000C500BBEAE040
+         Reserved Size                      : 956312 KB
+         Used Size                          : 0 MB
+         Unused Size                        : 571392 MB
+         Total Size                         : 572325 MB
+         Write Cache                        : Enabled (write-back)
+         FRU                                : None
+         S.M.A.R.T.                         : No
+         S.M.A.R.T. warnings                : 0
+         Power State                        : Full rpm
+         Supported Power States             : Full rpm,Powered off
+         SSD                                : No
+         Temperature                        : 29 C/ 84 F 
+      ----------------------------------------------------------------
+      Device Phy Information                
+      ----------------------------------------------------------------
+         Phy #0
+            PHY Identifier                  : 0
+            SAS Address                     : 5000C500BBEAE041
+            Attached PHY Identifier         : 6
+            Attached SAS Address            : 56C92BF0006AF0FA
+         Phy #1
+            PHY Identifier                  : 1
+            SAS Address                     : 5000C500BBEAE042
+      ----------------------------------------------------------------
+      Runtime Error Counters                
+      ----------------------------------------------------------------
+         Hardware Error Count               : 0
+         Medium Error Count                 : 0
+         Parity Error Count                 : 0
+         Link Failure Count                 : 0
+         Aborted Command Count              : 0
+         SMART Warning Count                : 0
+
+      Device #1
+         Device is a Hard drive
+         State                              : Ready
+         Block Size                         : 512 Bytes
+         Supported                          : Yes
+         Programmed Max Speed               : SAS 12.0 Gb/s
+         Transfer Speed                     : SAS 12.0 Gb/s
+         Reported Channel,Device(T:L)       : 0,1(1:0)
+         Reported Location                  : Enclosure 0, Slot 1(Connector 0)
+         Reported ESD(T:L)                  : 2,0(0:0)
+         Vendor                             : SEAGATE
+         Model                              : ST600MM0009
+         Firmware                           : N003
+         Serial number                      : WFJ0XBBM0000E907385Y
+         World-wide name                    : 5000C500BBB6F158
+         Reserved Size                      : 956312 KB
+         Used Size                          : 0 MB
+         Unused Size                        : 571392 MB
+         Total Size                         : 572325 MB
+         Write Cache                        : Enabled (write-back)
+         FRU                                : None
+         S.M.A.R.T.                         : No
+         S.M.A.R.T. warnings                : 0
+         Power State                        : Full rpm
+         Supported Power States             : Full rpm,Powered off
+         SSD                                : No
+         Temperature                        : 29 C/ 84 F 
+      ----------------------------------------------------------------
+      Device Phy Information                
+      ----------------------------------------------------------------
+         Phy #0
+            PHY Identifier                  : 0
+            SAS Address                     : 5000C500BBB6F159
+            Attached PHY Identifier         : 7
+            Attached SAS Address            : 56C92BF0006AF0FA
+         Phy #1
+            PHY Identifier                  : 1
+            SAS Address                     : 5000C500BBB6F15A
+      ----------------------------------------------------------------
+      Runtime Error Counters                
+      ----------------------------------------------------------------
+         Hardware Error Count               : 0
+         Medium Error Count                 : 0
+         Parity Error Count                 : 0
+         Link Failure Count                 : 0
+         Aborted Command Count              : 0
+         SMART Warning Count                : 0
+
+      Device #2
+         Device is a Hard drive
+         State                              : Ready
+         Block Size                         : 512 Bytes
+         Supported                          : Yes
+         Programmed Max Speed               : SAS 12.0 Gb/s
+         Transfer Speed                     : SAS 12.0 Gb/s
+         Reported Channel,Device(T:L)       : 0,2(2:0)
+         Reported Location                  : Enclosure 0, Slot 2(Connector 0)
+         Reported ESD(T:L)                  : 2,0(0:0)
+         Vendor                             : SEAGATE
+         Model                              : ST600MM0009
+         Firmware                           : N003
+         Serial number                      : WFJ0WMS50000K90584NY
+         World-wide name                    : 5000C500BBB64684
+         Reserved Size                      : 956312 KB
+         Used Size                          : 0 MB
+         Unused Size                        : 571392 MB
+         Total Size                         : 572325 MB
+         Write Cache                        : Enabled (write-back)
+         FRU                                : None
+         S.M.A.R.T.                         : No
+         S.M.A.R.T. warnings                : 0
+         Power State                        : Full rpm
+         Supported Power States             : Full rpm,Powered off
+         SSD                                : No
+         Temperature                        : 29 C/ 84 F 
+      ----------------------------------------------------------------
+      Device Phy Information                
+      ----------------------------------------------------------------
+         Phy #0
+            PHY Identifier                  : 0
+            SAS Address                     : 5000C500BBB64685
+            Attached PHY Identifier         : 5
+            Attached SAS Address            : 56C92BF0006AF0FA
+         Phy #1
+            PHY Identifier                  : 1
+            SAS Address                     : 5000C500BBB64686
+      ----------------------------------------------------------------
+      Runtime Error Counters                
+      ----------------------------------------------------------------
+         Hardware Error Count               : 0
+         Medium Error Count                 : 0
+         Parity Error Count                 : 0
+         Link Failure Count                 : 0
+         Aborted Command Count              : 0
+         SMART Warning Count                : 0
+
+      Device #3
+         Device is a Hard drive
+         State                              : Ready
+         Block Size                         : 512 Bytes
+         Supported                          : Yes
+         Programmed Max Speed               : SAS 12.0 Gb/s
+         Transfer Speed                     : SAS 12.0 Gb/s
+         Reported Channel,Device(T:L)       : 0,3(3:0)
+         Reported Location                  : Enclosure 0, Slot 3(Connector 0)
+         Reported ESD(T:L)                  : 2,0(0:0)
+         Vendor                             : SEAGATE
+         Model                              : ST600MM0009
+         Firmware                           : N003
+         Serial number                      : WFJ0XABX0000E90739RX
+         World-wide name                    : 5000C500BBB7AD7C
+         Reserved Size                      : 956312 KB
+         Used Size                          : 0 MB
+         Unused Size                        : 571392 MB
+         Total Size                         : 572325 MB
+         Write Cache                        : Enabled (write-back)
+         FRU                                : None
+         S.M.A.R.T.                         : No
+         S.M.A.R.T. warnings                : 0
+         Power State                        : Full rpm
+         Supported Power States             : Full rpm,Powered off
+         SSD                                : No
+         Temperature                        : 29 C/ 84 F 
+      ----------------------------------------------------------------
+      Device Phy Information                
+      ----------------------------------------------------------------
+         Phy #0
+            PHY Identifier                  : 0
+            SAS Address                     : 5000C500BBB7AD7D
+            Attached PHY Identifier         : 4
+            Attached SAS Address            : 56C92BF0006AF0FA
+         Phy #1
+            PHY Identifier                  : 1
+            SAS Address                     : 5000C500BBB7AD7E
+      ----------------------------------------------------------------
+      Runtime Error Counters                
+      ----------------------------------------------------------------
+         Hardware Error Count               : 0
+         Medium Error Count                 : 0
+         Parity Error Count                 : 0
+         Link Failure Count                 : 0
+         Aborted Command Count              : 0
+         SMART Warning Count                : 0
+
+      Device #4
+         Device is an Enclosure Services Device
+         Reported Channel,Device(T:L)       : 2,0(0:0)
+         Enclosure ID                       : 0
+         Type                               : SES2
+         Vendor                             : ADAPTEC
+         Model                              : Virtual SGPIO
+         Firmware                           :    1
+         Status of Enclosure Services Device
+            Speaker status                  : Not Available
+
+----------------------------------------------------------------------
+Connector information
+----------------------------------------------------------------------
+Connector #0                                
+   Connector Name                           : CN0
+
+      --------------------------------------
+   Lane Information                         
+      --------------------------------------
+   Lane #0                                  
+      Channel ID                            : 0
+      Device ID                             : 0
+      SAS Address                           : 56C92BF0006AF0FA
+      PHY Identifier                        : 6
+         -----------------------------------
+      Lane SAS Phy Information              
+         -----------------------------------
+         SAS Address                        : 56C92BF0006AF0FA
+         Attached PHY Identifier            : 0
+         Attached SAS Address               : 5000C500BBEAE041
+         Negotiated Logical Link Rate       : PHY enabled - 12 Gbps
+
+   Lane #1                                  
+      Channel ID                            : 0
+      Device ID                             : 1
+      SAS Address                           : 56C92BF0006AF0FA
+      PHY Identifier                        : 7
+         -----------------------------------
+      Lane SAS Phy Information              
+         -----------------------------------
+         SAS Address                        : 56C92BF0006AF0FA
+         Attached PHY Identifier            : 0
+         Attached SAS Address               : 5000C500BBB6F159
+         Negotiated Logical Link Rate       : PHY enabled - 12 Gbps
+
+   Lane #2                                  
+      Channel ID                            : 0
+      Device ID                             : 2
+      SAS Address                           : 56C92BF0006AF0FA
+      PHY Identifier                        : 5
+         -----------------------------------
+      Lane SAS Phy Information              
+         -----------------------------------
+         SAS Address                        : 56C92BF0006AF0FA
+         Attached PHY Identifier            : 0
+         Attached SAS Address               : 5000C500BBB64685
+         Negotiated Logical Link Rate       : PHY enabled - 12 Gbps
+
+   Lane #3                                  
+      Channel ID                            : 0
+      Device ID                             : 3
+      SAS Address                           : 56C92BF0006AF0FA
+      PHY Identifier                        : 4
+         -----------------------------------
+      Lane SAS Phy Information              
+         -----------------------------------
+         SAS Address                        : 56C92BF0006AF0FA
+         Attached PHY Identifier            : 0
+         Attached SAS Address               : 5000C500BBB7AD7D
+         Negotiated Logical Link Rate       : PHY enabled - 12 Gbps
+
+
+Connector #1                                
+   Connector Name                           : CN1
+
+      --------------------------------------
+   Lane Information                         
+      --------------------------------------
+   Lane #0                                  
+      Channel ID                            : 0
+      Device ID                             : 4
+      SAS Address                           : 56C92BF0006AF0FA
+      PHY Identifier                        : 1
+         -----------------------------------
+      Lane SAS Phy Information              
+         -----------------------------------
+         SAS Address                        : 56C92BF0006AF0FA
+
+   Lane #1                                  
+      Channel ID                            : 0
+      Device ID                             : 5
+      SAS Address                           : 56C92BF0006AF0FA
+      PHY Identifier                        : 0
+         -----------------------------------
+      Lane SAS Phy Information              
+         -----------------------------------
+         SAS Address                        : 56C92BF0006AF0FA
+
+   Lane #2                                  
+      Channel ID                            : 0
+      Device ID                             : 6
+      SAS Address                           : 56C92BF0006AF0FA
+      PHY Identifier                        : 2
+         -----------------------------------
+      Lane SAS Phy Information              
+         -----------------------------------
+         SAS Address                        : 56C92BF0006AF0FA
+
+   Lane #3                                  
+      Channel ID                            : 0
+      Device ID                             : 7
+      SAS Address                           : 56C92BF0006AF0FA
+      PHY Identifier                        : 3
+         -----------------------------------
+      Lane SAS Phy Information              
+         -----------------------------------
+         SAS Address                        : 56C92BF0006AF0FA
+
+
+
+Command completed successfully.
